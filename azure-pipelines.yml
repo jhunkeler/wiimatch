@@ -32,5 +32,5 @@ steps:
 
 - script: |
     python -m pip install pytest pytest-azurepipelines
-    pytest
+    pytest --cov=./
   displayName: 'pytest'
