@@ -27,7 +27,7 @@ steps:
   displayName: 'Install dependencies'
 
 - script: |
-    pythom -m pip freeze
+    python -m pip freeze
   displayName: 'Package listing'
 
 - script: |
